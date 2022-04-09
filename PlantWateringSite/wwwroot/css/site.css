@@ -1,0 +1,89 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+    
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: lightblue;
+}
+
+#about_p {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+#progress-bar1 {
+    width: 0;
+    height: 50px;
+    background-color: forestgreen;
+}
+#progress-bar2 {
+    width: 0;
+    height: 50px;
+    background-color: forestgreen;
+}
+
+#progress-bar3 {
+    width: 0;
+    height: 50px;
+    background-color: forestgreen;
+}
+
+#progress-bar4 {
+    width: 0;
+    height: 50px;
+    background-color: forestgreen;
+}
+
+#progress-bar5 {
+    width: 0;
+    height: 50px;
+    background-color: forestgreen;
+}
+
+#start1 {
+   background-color:chartreuse;
+}
+#start2 {
+    background-color: chartreuse;
+}
+#start3 {
+    background-color: chartreuse;
+}
+#start4 {
+    background-color: chartreuse;
+}
+#start5 {
+    background-color: chartreuse;
+}
+
+#stop1 {
+    background-color: red;
+}
+#stop2 {
+    background-color: red;
+}
+#stop3 {
+    background-color: red;
+}
+#stop4 {
+    background-color: red;
+}
+#stop5 {
+    background-color: red;
+}

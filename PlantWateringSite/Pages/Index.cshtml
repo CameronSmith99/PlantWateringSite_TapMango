@@ -1,0 +1,83 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To WaterMango Plant Manager</h1>
+    <p><a>Here is where you can keep track of watering the office plants!</a></p>
+    <p>Each plant will take 10 seconds to water regardless of starting water level. Once start button has been pressed you will be timed out of starting for 30 seconds.</p>
+    <p>Once the stop button is pressed the water levels will slowly lower till empty.</p>
+    <p>On pressing the start button, the computer will countown and notify the user six hours from now that that plant needs watered again.</p>
+</div>
+
+  <body>
+
+
+   <div>
+    <h2>Plant #1</h2>
+
+    <span id="plantspan1"> Plant Needs Water </span><br /><br />
+
+    <div id="progress-bar1"></div>
+    <button onclick="myFunction(); var t = this; t.disabled = true; setTimeout(function() {t.disabled = false;},30000)" id="start1">Start</button>
+    <button id="stop1">Stop</button>
+    <button id="reset1">Reset</button>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+   </div>
+
+      <div>
+    <br /><h2>Plant #2</h2>
+
+    <span id="plantspan2"> Plant is moderately watered </span><br /><br />
+
+    <div id="progress-bar2"></div>
+    <button onclick="myFunction(); var t = this; t.disabled = true; setTimeout(function() {t.disabled = false;},30000)" id="start2">Start</button>
+    <button id="stop2">Stop</button>
+    <button id="reset2">Reset</button>
+   </div>
+
+
+         <div>
+    <br /><h2>Plant #3</h2>
+
+    <span id="plantspan3"> Plant badly needs watered </span><br /><br />
+
+    <div id="progress-bar3"></div>
+    <button onclick="myFunction(); var t = this; t.disabled = true; setTimeout(function() {t.disabled = false;},30000)" id="start3">Start</button>
+    <button id="stop3">Stop</button>
+    <button id="reset3">Reset</button>
+   </div>
+
+
+         <div>
+    <br /><h2>Plant #4</h2>
+
+    <span id="plantspan4"> Plant is good on water </span><br /><br />
+
+    <div id="progress-bar4"></div>
+    <button onclick="myFunction(); var t = this; t.disabled = true; setTimeout(function() {t.disabled = false;},30000)" id="start4">Start</button>
+    <button id="stop4">Stop</button>
+    <button id="reset4">Reset</button>
+   </div>
+
+
+         <div>
+    <br /><h2>Plant #5</h2>
+
+    <span id="plantspan5"> Plant is good on water  </span><br /><br />
+
+    <div id="progress-bar5"></div>
+    <button onclick="myFunction(); var t = this; t.disabled = true; setTimeout(function() {t.disabled = false;},30000)" id="start5">Start</button>
+    <button id="stop5">Stop</button>
+    <button id="reset5">Reset</button>
+   </div>
+
+     <script type="text/javascript"></script>
+
+  </body>
+
+
+
+
